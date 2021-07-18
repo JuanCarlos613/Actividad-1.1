@@ -3,9 +3,15 @@ body{
     background: #e8e8e8;
 }
 
+body h1 {
+    font-family: Arial, Helvetica;
+}
+
 .Menu{
     list-style: none;
+   
 }
+
 .Menu li a{
     text-decoration: none;
     padding: 20px;
@@ -16,3 +22,8 @@ body{
     display: inline-block ;
     text-align: center;
 }
+
+.Menu li a:hover{
+    background: #ef8354;
+}
+

@@ -9,11 +9,17 @@ body h1 {
 
 .Menu{
     list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
    
 }
 
 .Menu li a{
     text-decoration: none;
+    color: white;
     padding: 20px;
     display: block;
 }
@@ -25,5 +31,10 @@ body h1 {
 
 .Menu li a:hover{
     background: #ef8354;
+}
+
+.img {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
